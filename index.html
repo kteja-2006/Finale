@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tej's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 2rem;
+            background: linear-gradient(90deg, #ff0080, #7928ca, #2afadf);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        section {
+            padding: 3rem 1rem;
+        }
+        .project {
+            background: #1a1a1a;
+            margin: 1rem auto;
+            padding: 1rem;
+            border-radius: 10px;
+            max-width: 500px;
+        }
+        .project h3 {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background: #111;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #ff0080;
+            color: white;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tej's Portfolio</h1>
+        <p>Aspiring Developer | AI & Smart Tech Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Tej, a student passionate about technology, AI, and building smart solutions.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Neonic College Analysis Webpage</h3>
+            <p>A futuristic neon-themed webpage for college analysis.</p>
+        </div>
+        <div class="project">
+            <h3>Momo Street Smart Ordering</h3>
+            <p>A QR-based smart ordering system for restaurants.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:teju@example.com">teju@example.com</a></p>
+        <button onclick="sayHello()">Say Hello 👋</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Tej | Built with 💻 & ❤️</p>
+    </footer>
+
+    <script>
+        function sayHello() {
+            alert("Thanks for visiting my portfolio! 🚀");
+        }
+    </script>
+</body>
+</html>
